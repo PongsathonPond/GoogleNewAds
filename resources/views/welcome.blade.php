@@ -353,8 +353,7 @@
                     <div class="col-lg-6 col-12">
                         <h2 class="text-white mb-4">สมัครตอนนี้</h2>
 
-                        <form class="custom-form volunteer-form mb-5 mb-lg-0" action="{{ route('index') }}"
-                            method="get" role="form">
+                        <div class="custom-form volunteer-form mb-5 mb-lg-0" action="#" role="form">
                             <h3 class="mb-4">สมัครวันนี้เพื่อรับรางวัลมากมาย</h3>
 
                             <div class="row">
@@ -384,8 +383,8 @@
                             <textarea name="volunteer-message" rows="3" class="form-control" id="message"
                                 placeholder="ข้อมูลด้านอื่นๆ"></textarea>
 
-                            <button type="submit" class="form-control">ส่งข้อมูล</button>
-                        </form>
+                            <button type="submit" class="form-control ">ส่งข้อมูล</button>
+                        </div>
                     </div>
 
                     <div class="col-lg-6 col-12">
@@ -611,7 +610,7 @@
 
                         </div>
 
-                        <form class="custom-form subscribe-form" action="#" role="form">
+                        <div class="custom-form subscribe-form" action="#" role="form">
                             <h5 class="mb-4">กรอกอีกเมล์ สมัครสมาชิกตอนนี้</h5>
 
                             <input type="email" name="subscribe-email" id="subscribe-email"
@@ -621,9 +620,9 @@
 
                                 <a href="{{ route('index') }}">
 
-                                    <button type="submit" class="form-control">ติดตาม</button></a>
+                                    <button type="submit" class="form-control ">ติดตาม</button></a>
                             </div>
-                        </form>
+                        </div>
                     </div>
 
                 </div>
