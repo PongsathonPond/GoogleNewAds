@@ -9,14 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>สมัครรับข้อมูลสุขภาพ</title>
+    <title>หน้าหลัก | สมัครตอนนี้</title>
+    </title>
 
     <!-- CSS FILES -->
     <link href="{{ asset('/template/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/template/css/bootstrap-icons.css') }}" rel="stylesheet">
+
     <link href="{{ asset('/template/css/templatemo-kind-heart-charity.css') }}" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
 <body id="section_1">
@@ -77,7 +77,7 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
 
-                                    <img src="{{ asset('/template/images/sl_1.png') }}" class="carousel-image img-fluid"
+                                    <img src="{{ asset('/template/images/1.png') }}" class="carousel-image img-fluid"
                                         alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
@@ -88,8 +88,8 @@
                                 </div>
 
                                 <div class="carousel-item">
-                                    <img src="{{ asset('/template/images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg') }}"
-                                        class="carousel-image img-fluid" alt="...">
+                                    <img src="{{ asset('/template/images/2.png') }}" class="carousel-image img-fluid"
+                                        alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
                                         <h1>อาหาร การกิน</h1>
@@ -99,8 +99,8 @@
                                 </div>
 
                                 <div class="carousel-item">
-                                    <img src="{{ asset('/template/images/slide/medium-shot-people-collecting-donations.jpg') }}"
-                                        class="carousel-image img-fluid" alt="...">
+                                    <img src="{{ asset('/template/images/3.png') }}" class="carousel-image img-fluid"
+                                        alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
                                         <h1>การพักผ่อน</h1>
@@ -141,7 +141,7 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="featured-block d-flex justify-content-center align-items-center">
                             <a href="{{ route('register') }}" class="d-block">
-                                <img src="{{ asset('/template/images/icons/hands.png') }}" alt="">
+                                <img src="{{ asset('/template/images/icons/l_1.png') }}" alt="">
 
                                 <p class="featured-block-text"><strong>ข้อมูลสุขภาพทั่วไป</strong></p>
                             </a>
@@ -151,7 +151,7 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                         <div class="featured-block d-flex justify-content-center align-items-center">
                             <a href="{{ route('register') }}" class="d-block">
-                                <img src="{{ asset('/template/images/icons/heart.png') }}"
+                                <img src="{{ asset('/template/images/icons/l_2.png') }}"
                                     class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text"><strong>ข้อมูลอาหารเพื่อสุขภาพ</strong> </p>
@@ -162,7 +162,7 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                         <div class="featured-block d-flex justify-content-center align-items-center">
                             <a href="{{ route('register') }}" class="d-block">
-                                <img src="{{ asset('/template/images/icons/receive.png') }}"
+                                <img src="{{ asset('/template/images/icons/l_3.png') }}"
                                     class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text"><strong>แนะนำกีฬาเพื่อสุขภาพ</strong></p>
@@ -173,7 +173,7 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="featured-block d-flex justify-content-center align-items-center">
                             <a href="{{ route('register') }}" class="d-block">
-                                <img src="{{ asset('/template/images/icons/scholarship.png') }}"
+                                <img src="{{ asset('/template/images/icons/l_4.png') }}"
                                     class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text"><strong>โปรแกรมออกกำลังกาย</strong></p>
@@ -191,8 +191,8 @@
 
                     <div class="col-lg-6 col-12 mb-5 mb-lg-0">
 
-                        <img src="{{ asset('/template/images/group-people-volunteering-foodbank-poor-people.jpg') }}"
-                            class="custom-text-box-image img-fluid" alt="">
+                        <img src="{{ asset('/template/images/c1.png') }}" class="custom-text-box-image img-fluid"
+                            alt="">
                     </div>
 
                     <div class="col-lg-6 col-12">
@@ -282,8 +282,8 @@
                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block-wrap">
 
-                            <img src="{{ asset('/template/images/causes/group-african-kids-paying-attention-class.jpg') }}"
-                                class="custom-block-image img-fluid" alt="">
+                            <img src="{{ asset('/template/images/tp_1.png') }}" class="custom-block-image img-fluid"
+                                alt="">
 
                             <div class="custom-block">
                                 <div class="custom-block-body">
@@ -305,8 +305,8 @@
                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block-wrap">
 
-                            <img src="{{ asset('/template/images/causes/poor-child-landfill-looks-forward-with-hope.jpg') }}"
-                                class="custom-block-image img-fluid" alt="">
+                            <img src="{{ asset('/template/images/tp_2.png') }}" class="custom-block-image img-fluid"
+                                alt="">
 
                             <div class="custom-block">
                                 <div class="custom-block-body">
@@ -324,8 +324,8 @@
 
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="custom-block-wrap">
-                            <img src="{{ asset('/template/images/causes/african-woman-pouring-water-recipient-outdoors.jpg') }}"
-                                class="custom-block-image img-fluid" alt="">
+                            <img src="{{ asset('/template/images/tp_3.png') }}" class="custom-block-image img-fluid"
+                                alt="">
 
                             <div class="custom-block">
                                 <div class="custom-block-body">
@@ -388,8 +388,8 @@
                     </div>
 
                     <div class="col-lg-6 col-12">
-                        <img src="{{ asset('/template/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg') }}"
-                            class="volunteer-image img-fluid" alt="">
+                        <img src="{{ asset('/template/images/regis.png') }}" class="volunteer-image img-fluid"
+                            alt="">
 
                         <div class="custom-block-body text-center">
                             <h4 class="text-white mt-lg-3 mb-lg-3">สมัครตอนนี้</h4>
@@ -416,8 +416,8 @@
                             <div class="news-block-top">
                                 <a href="{{ route('new1') }}">
 
-                                    <img src="{{ asset('/template/images/news/medium-shot-volunteers-with-clothing-donations.jpg') }}"
-                                        class="news-image img-fluid" alt="">
+                                    <img src="{{ asset('/template/images/t1.png') }}" class="news-image img-fluid"
+                                        alt="">
                                 </a>
 
                                 <div class="news-category-block">
@@ -471,8 +471,8 @@
                             <div class="news-block-top">
                                 <a href="{{ route('new2') }}">
 
-                                    <img src="{{ asset('/template/images/news/medium-shot-people-collecting-foodstuff.jpg') }}"
-                                        class="news-image img-fluid" alt="">
+                                    <img src="{{ asset('/template/images/p1.png') }}" class="news-image img-fluid"
+                                        alt="">
                                 </a>
 
                                 <div class="news-category-block">
@@ -540,8 +540,8 @@
                         <div class="news-block news-block-two-col d-flex mt-4">
                             <div class="news-block-two-col-image-wrap">
                                 <a href="news-detail.html">
-                                    <img src="{{ asset('/template/images/news/africa-humanitarian-aid-doctor.jpg') }}"
-                                        class="news-image img-fluid" alt="">
+                                    <img src="{{ asset('/template/images/sport.png') }}" class="news-image img-fluid"
+                                        alt="">
                                 </a>
                             </div>
 
@@ -571,9 +571,8 @@
 
                             <div class="news-block-two-col-info">
                                 <div class="news-block-title mb-2">
-                                    <h6><a href="news-detail.html"
-                                            class="news-block-title-link">ปู่ชาวจีนเผยเคล็ดลบอายุยืน
-                                            120 ปี </a>
+                                    <h6><a href="news-detail.html" class="news-block-title-link">เคล็ดลับสุขภาพจิตดี
+                                        </a>
                                     </h6>
                                 </div>
 

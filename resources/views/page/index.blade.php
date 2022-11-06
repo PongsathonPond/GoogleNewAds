@@ -13,9 +13,9 @@
 
     <!-- CSS FILES -->
     <link href="{{ asset('/template/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/template/css/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('/template/css/templatemo-kind-heart-charity.css') }}" rel="stylesheet">
 
+    <link href="{{ asset('/template/css/templatemo-kind-heart-charity.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 </head>
 
@@ -84,7 +84,7 @@
                     </div>
 
                     <div class="col-lg-5 col-12 mx-auto">
-                        <form class="custom-form contact-form" action="#" method="get" role="form">
+                        <div class="custom-form contact-form" action="#" method="get" role="form">
                             <h2>ช่องทางการติดต่อคุณ</h2>
 
                             <p class="mb-4">หรือส่งเมล์ให้เราได้โดยตรง:
@@ -108,7 +108,7 @@
                             <textarea name="message" rows="5" class="form-control" id="message" placeholder="แนะนำตัวคุณสั้นๆ ?"></textarea>
 
                             <button type="submit" class="form-control">ส่งข้อมูล</button>
-                        </form>
+                        </div>
                     </div>
 
                 </div>
