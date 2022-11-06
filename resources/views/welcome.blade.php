@@ -53,12 +53,14 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="/">สมัครตอนนี้</a>
+                        <a class="nav-link click-scroll" href="/">ข่าว</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="/">ข่าว</a>
+                        <a class="nav-link " href="{{ route('register') }}">สมัครตอนนี้</a>
                     </li>
+
+
 
 
                 </ul>
@@ -346,7 +348,7 @@
             </div>
         </section>
 
-        <section class="volunteer-section section-padding" id="section_4">
+        <section class="volunteer-section section-padding">
             <div class="container">
                 <div class="row">
 
@@ -403,7 +405,7 @@
             </div>
         </section>
 
-        <section class="news-section section-padding" id="section_5">
+        <section class="news-section section-padding" id="section_4">
             <div class="container">
                 <div class="row">
 
