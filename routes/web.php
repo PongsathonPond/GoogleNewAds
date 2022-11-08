@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('index');
+Route::get('/', [RouteController::class, 'indexPri'])->name('index');
 
 Route::get('/registerNews', [RouteController::class, 'index'])->name('register');
 Route::get('/News/1', [RouteController::class, 'new1'])->name('new1');
