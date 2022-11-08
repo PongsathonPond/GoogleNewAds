@@ -32,7 +32,7 @@ class RouteController extends Controller
                 return view('page.ads.welcome');
             }
         }
-        return view('welcome');
+        return view('page.ads.welcome');
 
     }
 

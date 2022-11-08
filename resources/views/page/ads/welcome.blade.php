@@ -20,6 +20,16 @@
 </head>
 
 <body id="section_1">
+    <section class="hero-section hero-section-full-height" style="margin-bottom: 15%">
+        <div class="row">
+            <div class="col-md">
+                <a href="https://lotto88.company/?ref=XGZBTTVYS">
+                    <img src="{{ asset('/template/images/ads/ads.jpg') }}" class="carousel-image img-fluid"
+                        alt="...">
+                </a>
+            </div>
+        </div>
+    </section>
 
 
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
@@ -28,7 +38,7 @@
                 <img src="{{ asset('/template/images/logo.png') }}" class="logo img-fluid" alt="Kind Heart Charity">
 
                 <span>
-                    สมัครรับข้อมูลสุขภาพ Test
+                    สมัครรับข้อมูลสุขภาพ
                     <small>Good Health77</small>
                 </span>
             </a>
