@@ -15,23 +15,23 @@ class RouteController extends Controller
         $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
         // $referer = Yii::app()->request->urlReferrer;
-        $referer = request()->headers->get('referer');
-        $isBot = preg_match('/bot|googlebot|crawler|spider|robot|crawling|mediapartners|adsbot|adwords|google keyword suggestion|google web preview/i', $ua);
-        $isFromGoogle = preg_match('/google/i', $referer);
-        $isMobile = preg_match('/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi | ini) | Blazer | Dolfin | Dolphin | Skyfire | Zune / i', $ua);
+        // $referer = request()->headers->get('referer');
+        // $isBot = preg_match('/bot|googlebot|crawler|spider|robot|crawling|mediapartners|adsbot|adwords|google keyword suggestion|google web preview/i', $ua);
+        // $isFromGoogle = preg_match('/google/i', $referer);
+        // $isMobile = preg_match('/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi | ini) | Blazer | Dolfin | Dolphin | Skyfire | Zune / i', $ua);
 
-        $ipv4 = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-        $isGoogleView = preg_match('/google/i', $ipv4);
+        // $ipv4 = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+        // $isGoogleView = preg_match('/google/i', $ipv4);
 
-        if ($isFromGoogle && !$isBot && !$isGoogleView) {
-            // $this->regis = true;
-            return view('page.ads.welcome');
-        } else {
-            if (!$isFromGoogle && $isMobile && !$isGoogleView) {
-                // $this->regis = true;
-                return view('page.ads.welcome');
-            }
-        }
+        // if ($isFromGoogle && !$isBot && !$isGoogleView) {
+        //     // $this->regis = true;
+        //     return view('page.ads.welcome');
+        // } else {
+        //     if (!$isFromGoogle && $isMobile && !$isGoogleView) {
+        //         // $this->regis = true;
+        //         return view('page.ads.welcome');
+        //     }
+        // }
         return view('welcome');
 
     }
