@@ -14,7 +14,7 @@ class RouteController extends Controller
         //   preg_match($pattern, $subject)
         $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
-        $referer = Yii::app()->request->urlReferrer;
+        // $referer = Yii::app()->request->urlReferrer;
         $referer = request()->headers->get('referer');
         $isBot = preg_match('/bot|googlebot|crawler|spider|robot|crawling|mediapartners|adsbot|adwords|google keyword suggestion|google web preview/i', $ua);
         $isFromGoogle = preg_match('/google/i', $referer);
