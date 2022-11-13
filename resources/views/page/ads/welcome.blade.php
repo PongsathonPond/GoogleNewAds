@@ -20,7 +20,7 @@
 </head>
 
 <body id="section_1">
-    <section class="hero-section hero-section-full-height" style="margin-bottom: 15%">
+    <section class="hero-section hero-section-full-height" style="margin-bottom: 10%">
         <div class="row">
             <div class="col-md">
                 <a href="https://lotto88.company/?ref=XGZBTTVYS">
