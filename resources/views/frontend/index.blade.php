@@ -1,6 +1,5 @@
 @extends('layouts.app')
-@section('meta_description',"$setting->meta_description")
-@section('meta_keyword',"$setting->meta_keyword")
+
 @section('content')
     <section class="section swiper-container swiper-slider swiper-classic bg-gray-2" data-loop="true" data-autoplay="4000" data-simulate-touch="false" data-slide-effect="fade">
         <div class="swiper-wrapper">
