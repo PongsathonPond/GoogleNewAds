@@ -20,7 +20,7 @@
 </head>
 
 <body id="section_1">
-    <section class="hero-section hero-section-full-height" style="margin-bottom: 10%">
+    {{-- <section class="hero-section hero-section-full-height" style="margin-bottom: 10%">
         <div class="row">
             <div class="col-md">
                 <a href="https://lotto88.company/?ref=XGZBTTVYS">
@@ -29,7 +29,7 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
@@ -79,6 +79,28 @@
     </nav>
 
     <main>
+
+        <section class="hero-section hero-section-full-height">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 p-0">
+                        <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="https://lotto88.company/?ref=XGZBTTVYS">
+                                        <img src="{{ asset('/template/images/ads/ads.jpg') }}"
+                                            class="carousel-image img-fluid" alt="...">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
 
         <section class="hero-section hero-section-full-height">
             <div class="container-fluid">
