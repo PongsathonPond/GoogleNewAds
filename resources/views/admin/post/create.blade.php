@@ -1,5 +1,6 @@
 @extends('layouts.master')
-@section('title','Add Post')
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+@section('title', 'Add Post')
 @section('content')
 
     <div class="container-fluid px-4">
@@ -7,15 +8,15 @@
 
             <div class="card-header">
                 <h4>Add Posts
-                    <a href="{{url('admin/posts')}}" class="btn btn-danger float-end">BACK</a>
+                    <a href="{{ url('admin/posts') }}" class="btn btn-danger float-end">BACK</a>
                 </h4>
             </div>
             <div class="card-body">
 
-                @if($errors->any())
+                @if ($errors->any())
                     <div class="alert alert-danger">
-                        @foreach($errors->all() as $error)
-                            <div>{{$error}}</div>
+                        @foreach ($errors->all() as $error)
+                            <div>{{ $error }}</div>
                         @endforeach
                     </div>
                 @endif
@@ -27,7 +28,7 @@
                         <label>Category</label>
                         <select name="category_id" class="form-control">
                             <option value="">-- Select Category --</option>
-                            @foreach($category as $cateitem)
+                            @foreach ($category as $cateitem)
                                 <option value="{{ $cateitem->id }}">{{ $cateitem->name }}</option>
                             @endforeach
                         </select>
@@ -38,11 +39,11 @@
                     </div>
                     <div class="mb-3">
                         <label>Post Name</label>
-                        <input type="text" name="name" class="form-control"/>
+                        <input type="text" name="name" class="form-control" />
                     </div>
                     <div class="mb-3">
                         <label>Slug</label>
-                        <input type="text" name="slug" class="form-control"/>
+                        <input type="text" name="slug" class="form-control" />
                     </div>
                     <div class="mb-3">
                         <label>Description</label>
@@ -50,13 +51,13 @@
                     </div>
                     <div class="mb-3">
                         <label>Youtube Iframe Link</label>
-                        <input type="text" name="yt_iframe" class="form-control"/>
+                        <input type="text" name="yt_iframe" class="form-control" />
                     </div>
 
                     <h4>SEO Tags</h4>
                     <div class="mb-3">
                         <label>Meta Title</label>
-                        <input type="text" name="meta_title" class="form-control"/>
+                        <input type="text" name="meta_title" class="form-control" />
                     </div>
                     <div class="mb-3">
                         <label>Meta Description</label>
@@ -72,7 +73,7 @@
                         <div class="col-md-4">
                             <div class="mb-3">
                                 <label>Status</label>
-                                <input type="checkbox" name="status"/>
+                                <input type="checkbox" name="status" />
                             </div>
                         </div>
                         <div class="col-md-8">
