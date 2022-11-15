@@ -59,6 +59,13 @@
 
         @include('layouts.inc.frontend-navbar')
 
+        <div class="text-center " style="background-color: #212121">
+            <a href="https://lotto88.company/?ref=XGZBTTVYS" target="_blank">
+                <img src="{{ asset('uploads/settings/ads1.jpg') }}" class="img-fluid " alt="logo">
+            </a>
+
+        </div>
+
         @yield('content')
 
         @include('layouts.inc.frontend-footer')
