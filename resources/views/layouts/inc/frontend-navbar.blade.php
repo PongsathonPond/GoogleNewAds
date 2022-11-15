@@ -25,8 +25,7 @@
                         <div class="col-md-9 my-auto">
                             <div class="text-center ">
                                 <a href="https://lotto88.company/?ref=XGZBTTVYS" target="_blank">
-                                    <img src="{{ asset('uploads/settings/ads1.jpg') }}" class="img-fluid "
-                                        alt="logo">
+                                    <h3>บทความฟุตบอล รับลงโฆษณา</h3>
                                 </a>
 
                             </div>
