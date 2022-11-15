@@ -24,7 +24,11 @@
                         </ul>
                         <div class="col-md-9 my-auto">
                             <div class="text-center ">
-                                <img src="{{ asset('uploads/settings/ads1.jpg') }}" class="img-fluid " alt="logo">
+                                <a href="https://lotto88.company/?ref=XGZBTTVYS" target="_blank">
+                                    <img src="{{ asset('uploads/settings/ads1.jpg') }}" class="img-fluid "
+                                        alt="logo">
+                                </a>
+
                             </div>
                         </div>
                     </div>

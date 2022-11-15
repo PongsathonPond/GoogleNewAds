@@ -16,9 +16,10 @@ Route::get('/tutorial/{category_slug}/{post_slug}', [App\Http\Controllers\Fronte
 Route::post('comments', [App\Http\Controllers\Frontend\CommentController::class, 'store']);
 Route::post('delete-comment', [App\Http\Controllers\Frontend\CommentController::class, 'destroy']);
 
+
+
 Route::prefix('admin')->group(function () {
     Route::get('/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index']);
-
     //category
     Route::get('category', [App\Http\Controllers\Admin\CategoryController::class, 'index']);
     Route::get('add-category', [App\Http\Controllers\Admin\CategoryController::class, 'create']);
