@@ -1,5 +1,6 @@
 @extends('layouts.master')
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta http-equiv="refresh" content="3600">
 @section('title','Add Category')
 @section('content')
     <div class="container-fluid px-4">

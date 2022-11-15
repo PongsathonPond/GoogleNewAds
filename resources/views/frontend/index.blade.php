@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<meta http-equiv="refresh" content="3600">
 @section('content')
     <section class="section swiper-container swiper-slider swiper-classic bg-gray-2" data-loop="true" data-autoplay="4000"
         data-simulate-touch="false" data-slide-effect="fade">

@@ -1,6 +1,7 @@
 @extends('layouts.app')
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="refresh" content="3600">
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
