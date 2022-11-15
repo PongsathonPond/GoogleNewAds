@@ -36,7 +36,7 @@ class PostController extends Controller
         $post->meta_description = $data['meta_description'];
         $post->meta_keyword = $data['meta_keyword'];
         $post->status = $request->status == true ? '1':'0';
-        $post->created_by = Auth::user()->id;
+        $post->created_by = 1;
 
         if($request->hasfile('image')){
             $file = $request->file('image');
@@ -69,7 +69,7 @@ class PostController extends Controller
         $post->meta_description = $data['meta_description'];
         $post->meta_keyword = $data['meta_keyword'];
         $post->status = $request->status == true ? '1':'0';
-        $post->created_by = Auth::user()->id;
+        $post->created_by = 1;
 
         if($request->hasfile('image')){
 
